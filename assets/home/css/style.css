@@ -64,7 +64,7 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #fff;
+  background: #ff6200;
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
@@ -81,11 +81,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo a {
-  color: #ff6200;
+  color: white;
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 60px;
 }
 
 /*--------------------------------------------------------------
@@ -118,9 +118,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", sans-serif;
   font-size: 15px;
   font-weight: 500;
-  color: #2b3c6f;
+  color: white;
   white-space: nowrap;
   transition: 0.3s;
+  background: #ff6200;
 }
 
 .navbar a i, .navbar a:focus i {
@@ -1263,6 +1264,7 @@ section {
 --------------------------------------------------------------*/
 #footer {
   background: #ff6200;
+  /* background-image: url("assets/dataresto/foto_usaha/footer.jpg"); */
   color: #fff;
   font-size: 14px;
   text-align: center;
@@ -1281,9 +1283,9 @@ section {
 
 #footer p {
   font-size: 15;
-  font-style: italic;
+  /* font-style: italic; */
   padding: 0;
-  margin: 0 0 40px 0;
+  /* margin: 0 0 40px 0; */
 }
 
 #footer .social-links {
@@ -1327,3 +1329,4 @@ section {
 #footer .credits a:hover {
   color: #008df1;
 }
+

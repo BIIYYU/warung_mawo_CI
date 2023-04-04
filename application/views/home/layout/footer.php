@@ -1,7 +1,11 @@
   <!-- ======= Footer ======= -->
   <footer id="footer">
     <div class="container">
-      <h3><?= $nama_usaha ?></h3>
+    <h1 class="logo">
+        <a href="<?= base_url() ?>">
+        <img style="width: 10%;" src="<?= base_url('assets/dataresto/foto_usaha/logo_mawo.png') ?>" /></a>
+    </h1>
+    
       <p>Alamat : <?= $alamat ?></p>
       <p>No Telepon : </i> <?= $nomor_telepon ?></p>
       <div class="social-links">
@@ -35,3 +39,4 @@
   </body>
 
   </html>
+  

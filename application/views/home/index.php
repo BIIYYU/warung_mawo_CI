@@ -30,7 +30,8 @@
     </a>
 
   </div>
-</section><!-- End Hero -->
+</section>
+<!-- End Hero -->
 
 <main id="main">
 
@@ -59,7 +60,6 @@
     <div class="container">
       <div class="section-title">
         <h2>Informasi <?= $nama_usaha ?></h2>
-        <p>Selamat Datang di Restoran kami</p>
       </div>
 
       <div class="row content">

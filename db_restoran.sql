@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.2
+-- version 5.2.0
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 19, 2021 at 07:42 AM
--- Server version: 10.4.11-MariaDB
--- PHP Version: 7.4.6
+-- Generation Time: Apr 04, 2023 at 11:30 AM
+-- Server version: 10.4.24-MariaDB
+-- PHP Version: 7.4.29
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `db_eorest`
+-- Database: `db_restoran`
 --
 
 -- --------------------------------------------------------
@@ -302,7 +302,7 @@ CREATE TABLE `profil_usaha` (
 --
 
 INSERT INTO `profil_usaha` (`id`, `nama_usaha`, `deskripsi`, `alamat`, `nomor_telepon`, `email`, `instagram`, `facebook`, `maps_link`, `foto_usaha_1`, `foto_usaha_2`, `foto_usaha_3`) VALUES
-(1, 'Warung Sehat Ceria', 'Warung Sehat Ceria sudah dikenal luas oleh pecinta kuliner di Indonesia sebagai restoran halal yang menghadirkan resep internasional yang terinspirasi oleh budaya-budaya yang beragam dari seluruh dunia, dari resep oriental, barat, hingga resep klasik Indonesia yang tak lekang oleh waktu. Tak hanya hidangan khas internasional, minuman dan menu kopi mancanegara pun juga dapat ditemukan di Warung Sehat Ceria bagi pengunjung yang ingin duduk dan bersantai, mengadakan rapat kecil, atau berbaur dengan teman dan keluarga.', 'Jl. Mawar 15 Malang, Jawa Timur', '085202430918', 'warungsehatceria@gmail.com', 'warungsehatceria', 'warungsehatceria', 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d987.8355996155653!2d112.62659632918319!3d-7.96352259964151!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd6282c92f71d91%3A0xf91198a2dadfe70b!2sJl.%20Brigjend%20Slamet%20Riadi%20No.152a%2C%20Oro-oro%20Dowo%2C%20Kec.%20Klojen%2C%20Kota%20Malang%2C%20Jawa%20Timur%2065119!5e0!3m2!1sid!2sid!4v1636892306365!5m2!1sid!2sid', '14112021132155restoran-locavore_20170304_130002.jpg', '14112021132155makanan-khas-indonesia-header.png', '14112021132155photo2.jpg');
+(1, 'WARUNK MA\'WO', 'Warunk Ma\'Wo Menyediakan berbagaimacam jenis makanan yang dijamin bisa membuat selera makan anda meronta. Warunk Ma\'Wo sudah dikenal dengan makanannya yang pedas menggigit, dari makanan nusantara hingga jenis makanan mancanegara. Ma\'Wo juga menyediakan layanan Catering juga loh, jadi tenang jika tidak punya cash sekarang dengan menggunakan jasa Catering Ma\'Wo bisa dibayar perbulan.', 'KOMPLEK STI PUSAT BLOCK C.01-C.02', '082271513853', 'warunk_mawo@gmail.com', 'Warunk Ma\'Wo', 'Warunk Ma\'Wo', 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1994.880453989942!2d103.601325!3d0.307372!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d821c88c32b3cb%3A0xb4942a9c76adf4cf!2sWarung%20Ma&#39;Wo!5e0!3m2!1sen!2sus!4v1680594332763!5m2!1sen!2sus', 'catering.jpg', 'image1.jpg', 'image2.png');
 
 -- --------------------------------------------------------
 

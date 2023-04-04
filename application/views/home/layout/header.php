@@ -37,7 +37,11 @@
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center justify-content-between">
 
-      <h1 class="logo"><a href="<?= base_url() ?>"><?= $nama_usaha ?></a></h1>
+      <h1 class="logo">
+        <a href="<?= base_url() ?>">
+        <img style="width: 100%;" src="<?= base_url('assets/dataresto/foto_usaha/logo_mawo.png') ?>" /></a>
+    </h1>
+      
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo"><img src="<?= base_url() ?>assets/home/img/logo.png" alt="" class="img-fluid"></a>-->
 
