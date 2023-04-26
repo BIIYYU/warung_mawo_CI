@@ -3351,15 +3351,15 @@ fieldset:disabled a.btn
 .btn-primary
 {
     color: #fff;
-    border-color: #5e72e4;
-    background-color: #5e72e4;
+    border-color: #fb6340;
+    background-color: #fb6340;
     box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
 }
 .btn-primary:hover
 {
     color: #fff;
-    border-color: #5e72e4; 
-    background-color: #5e72e4;
+    border-color: #fb6340; 
+    background-color: #fb6340;
 }
 .btn-primary:focus,
 .btn-primary.focus
@@ -8769,7 +8769,7 @@ a.close.disabled
 
 .bg-primary
 {
-    background-color: #5e72e4 !important;
+    background-color: #fb6340 !important;
 }
 
 a.bg-primary:hover,
@@ -23763,8 +23763,8 @@ textarea[resize='horizontal']
 
 .table .thead-dark th
 {
-    color: #4d7bca; 
-    background-color: #1c345d;
+    color: #fff; 
+    background-color: #5e72e4;
 }
 .table .thead-dark th a
 {

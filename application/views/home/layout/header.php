@@ -22,7 +22,22 @@
   <link href="<?= base_url() ?>assets/home/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="<?= base_url() ?>assets/home/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="<?= base_url() ?>assets/home/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="<?= base_url() ?>assets/admin/css/tables/datatable/datatables.min.css" rel="stylesheet">
+  <link href="<?= base_url() ?>assets/admin/css/tables/datatable/extensions/dataTables.checkboxes.css" rel="stylesheet">
+
   <script src="<?= base_url() ?>assets/admin/vendor/jquery/dist/jquery.min.js"></script>
+  <!-- <script src="<?= base_url() ?>assets/admin/vendor/js/tables/datatable/pdfmake.min.js"></script>
+  <script src="<?= base_url() ?>assets/admin/vendor/js/tables/datatable/vfs_fonts.js"></script> -->
+  <!-- <script src="<?= base_url() ?>assets/admin/vendor/js/tables/datatable/datatables.min.js"></script>
+  <script src="<?= base_url() ?>assets/admin/vendor/js/tables/datatable/datatables.buttons.min.js"></script>
+  <script src="<?= base_url() ?>assets/admin/vendor/js/tables/datatable/buttons.html5.min.js"></script>
+  <script src="<?= base_url() ?>assets/admin/vendor/js/tables/datatable/buttons.print.min.js"></script>
+  <script src="<?= base_url() ?>assets/admin/vendor/js/tables/datatable/buttons.bootstrap.min.js"></script>
+  <script src="<?= base_url() ?>assets/admin/vendor/js/tables/datatable/datatables.bootstrap4.min.js"></script>
+  <script src="<?= base_url() ?>assets/admin/vendor/js/tables/datatable/dataTables.select.min.js"></script>
+  <script src="<?= base_url() ?>assets/admin/vendor/js/tables/datatable/datatables.checkboxes.min.js"></script> -->
+
+  <!-- <script src="<?= base_url() ?>assets/admin/vendor/js/script/datatable/datatables.datatable.js"></script> -->
   <!-- Template Main CSS File -->
   <link href="<?= base_url() ?>assets/home/css/style.css" rel="stylesheet">
 
@@ -46,21 +61,70 @@
       <!-- <a href="index.html" class="logo"><img src="<?= base_url() ?>assets/home/img/logo.png" alt="" class="img-fluid"></a>-->
 
       <nav id="navbar" class="navbar">
-        <ul>
-            <li class="dropdown"><a href="#"><span>Master</span> <i class="bi bi-chevron-down"></i></a>
-              <ul>
+        <ul id="navmenus">
+            <li class="dropdown navm"><a href="#"><span>Master</span> <i class="bi bi-chevron-down"></i></a>
+                <ul>
                 <li><a href="#">Data Resto</a></li>
                 <li><a href="#">Makanan & Minuman</a></li>
-              </ul>
+                </ul>
             </li>
-          <li><a class="active" href="<?= base_url() ?>">Home</a></li>
-          <li><a href="<?= base_url() ?>katalog">Katalog Menu</a></li>
-          <li><a href="<?= base_url() ?>home/booking">Booking Sekarang</a></li>
-          <li><a href="<?= base_url() ?>pembayaran/cari">Cek Pembayaran</a></li>
-          <li><a href="<?= base_url() ?>saran/add">Kritik & Saran</a></li>
+            <li class="navm"><a href="<?= base_url() ?>">Home</a></li>
+            <li class="navm"><a href="<?= base_url() ?>katalog">Katalog Menu</a></li>
+            <li class="navm"><a href="<?= base_url() ?>home/booking">Booking Sekarang</a></li>
+            <li class="navm"><a href="<?= base_url() ?>pembayaran/cari">Cek Pembayaran</a></li>
+            <li class="navm"><a href="<?= base_url() ?>saran/add">Kritik & Saran</a></li>
+            <!-- <li class="navm"><a href="<?= base_url() ?>admin">login</a></li> -->
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
     </div>
   </header><!-- End Header -->
+
+  <script>
+   $(document).ready(function () {
+
+            let nav = $('.navm');
+
+            // console.log(nav.length)
+            for (var i = 0; i < nav.length; i++){
+                $(nav).on('click', function(){
+                    let act = $('.active');
+                    act[0]
+                });
+            }
+
+
+// SET ACTIVE PAGE //
+   // Get the current page URL
+  var currentPage = window.location.hash;
+    
+    // Loop through each <a> element in the navbar
+    $('#navmenus li a').each(function() {
+      // Get the href attribute of the <a> element
+      var href = $(this).attr('href');
+  
+      // If the href contains the current page
+      if (currentPage.indexOf(href) !== -1) {
+        // Add the 'active' class to its <li> element
+        $(this).closest('li').addClass('active');
+      }
+    });
+  
+    // Update the active class whenever the URL hash changes
+    $(window).on('hashchange', function() {
+      $('#navmenus li').removeClass('active');
+      currentPage = window.location.hash;
+  
+      $('#navmenus li a').each(function() {
+        var href = $(this).attr('href');
+  
+        if (currentPage.indexOf(href) !== -1) {
+          $(this).closest('li').addClass('active');
+        }
+      });
+    });
+
+
+   }); 
+  </script>
