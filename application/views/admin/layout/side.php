@@ -4,7 +4,7 @@
         <div class="sidenav-header  align-items-center">
             <a class="navbar-brand" href="<?= base_url() ?>admin">
                 <i class="fa fa-utensils text-primary"></i>
-                <span class="h2 text-blue"> E-Orest</span>
+                <span class="h2 text-blue">Ma'Wo - Admin</span>
             </a>
         </div>
         <div class="navbar-inner">
@@ -96,7 +96,7 @@
                             </a>
                         </li>
                     </ul>
-                    <ul class="navbar-nav">
+                    <!-- <ul class="navbar-nav">
                         <li class="nav-item">
                             <a class="nav-link" href="<?= base_url() ?>admin/daftar_pegawai">
                                 <i class="fa fa-people-carry text-primary"></i>
@@ -111,7 +111,7 @@
                                 <span class="nav-link-text">Pemilihan Pegawai Teladan</span>
                             </a>
                         </li>
-                    </ul>
+                    </ul> -->
                 <?php
                 }
                 ?>

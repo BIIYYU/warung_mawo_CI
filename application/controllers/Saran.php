@@ -87,7 +87,7 @@ class Saran extends CI_Controller
             redirect('saran');
         } else {
             $this->saran_model->delete($id);
-            $this->session->set_flashdata('message', '<div class="alert alert-success" role="alert">
+            $this->session->set_flashdata('message', '<div class="alert alert-primary" role="alert">
             Sukses Menghapus Data Kritik & Saran
             </div>');
             redirect('saran');
