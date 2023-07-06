@@ -1,10 +1,10 @@
         <!-- Sing in  Form -->
-        <section class="sign-in" style="background-color: #6DABE4;">
-            <div class="container">
+        <section class="sign-in" style="background-color: #FFB7CB;">
+            <div class="containerLogin">
                 <div class="signin-content">
-                    <img src="<?= base_url() ?>assets/auth/images/signup-image.jpg">
                     <div class="signin-form">
-                        <h2 class="form-title">Login Staff</h2>
+                        <img class="logoDIV" src="<?= base_url() ?>assets/auth/images/logo.png">
+
                         <form action="<?= base_url() ?>auth/prosesLoginPegawai" method="POST" class="register-form" id="login-form">
                             <?= $this->session->flashdata('message'); ?><br>
                             <div class="form-group">
@@ -22,8 +22,9 @@
                                 <input type="submit" name="signin" id="signin" class="form-submit" value="Log in" />
                             </div>
                         </form>
-						<br><center><p>Repost by <a href='https://stokcoding.com/' title='StokCoding.com' target='_blank'>StokCoding.com</a></p></center>
-						
+						<br>
+                        <h1>Peraktek Fisioterapi</h1>
+						<h3>Ftr. Laura Tirta Sary, S.Ftr</h3>
                     </div>
                 </div>
             </div>

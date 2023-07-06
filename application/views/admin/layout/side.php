@@ -3,8 +3,9 @@
         <!-- Brand -->
         <div class="sidenav-header  align-items-center">
             <a class="navbar-brand" href="<?= base_url() ?>admin">
-                <i class="fa fa-utensils text-primary"></i>
-                <span class="h2 text-blue">Ma'Wo - Admin</span>
+                <i class="fa fa-stethoscope text-primary"></i>
+                <!-- <img class="logoDIV" src="<?= base_url() ?>assets/auth/images/logo.png"> -->
+                <span class="h2 text-blue">RaTeraphy - Clinic</span>
             </a>
         </div>
         <div class="navbar-inner">
@@ -28,7 +29,8 @@
                     <li class="nav-item">
                         <a class="nav-link" href="<?= base_url() ?>makanan">
                             <i class="fa fa-utensils text-primary"></i>
-                            <span class="nav-link-text">Makanan & Minuman</span>
+                            <span class="nav-link-text">Master</span>
+                            <!-- makanan -->
                         </a>
                     </li>
                 </ul>

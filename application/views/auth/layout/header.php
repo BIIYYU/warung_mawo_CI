@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" style="background-color: #6DABE4;">
+<html lang="en" style="background-color: #FFB7CB;">
 
 <head>
     <meta charset="UTF-8">
@@ -15,4 +15,4 @@
 </head>
 
 <body>
-    <div class="main" style="background-color: #6DABE4;">
+    <div class="main" style="background-color: #FFB7CB;">

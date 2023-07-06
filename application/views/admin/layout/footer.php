@@ -3,7 +3,7 @@
     <div class="row align-items-center justify-content-lg-between">
         <div class="col-lg-6">
             <div class="copyright text-center  text-lg-left  text-muted">
-                 &copy; 2023 | Warung Ma'Wo</a>
+                 &copy; 2023 | Ftr. Laura Tirta Sary, S.Ftr | RaTeraphy</a>
                 <!-- &copy; 2021 Bojonegoro Squad | Repost by <a href='https://stokcoding.com/' title='StokCoding.com' target='_blank'>StokCoding.com</a> -->
             </div>
         </div>
